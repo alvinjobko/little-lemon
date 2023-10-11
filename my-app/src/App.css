@@ -43,6 +43,7 @@ nav
   display: grid;
   grid-template-columns: 1fr 7fr;
   text-align: center;
+  padding: 0.7rem;
 }
 
 .bar {
@@ -52,12 +53,12 @@ nav
   margin: 5px 0px;
 }
 
-nav > a > img {
-  margin-top: 0.7rem;
+nav a img {
+  text-align: center;
 }
 
 
-nav > ul
+nav ul
 {
   display: grid;
   grid-template-columns:  repeat(7,1fr) ;
@@ -67,4 +68,9 @@ nav > ul
   font-size: 20px;
 }
 
+.direactBar li:hover
+{
+  background-color: black;
+  color: white;
+}
 

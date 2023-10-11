@@ -14,24 +14,24 @@ function Nav() {
                 <div className='bar'></div>
                 <div className='bar'></div>
             </div> */}
-            <ul>
+            <ul className='direactBar'>
                 <li>
-                    <a herf="/">Home</a>
+                    <a herf="#">Home</a>
                 </li>
                 <li>
-                    <a herf="/">About</a>
+                    <a herf="#">About</a>
                 </li>
                 <li>
-                    <a herf="/">Menu</a>
+                    <a herf="#">Menu</a>
                 </li>
                 <li>
-                    <a herf="/">Reservations</a>
+                    <a herf="#">Reservations</a>
                 </li>
                 <li>
-                    <a herf="/">Order Online</a>
+                    <a herf="#">Order Online</a>
                 </li>
                 <li>
-                    <a herf="/">Login</a>
+                    <a herf="#">Login</a>
                 </li>
             </ul>
         </nav>
