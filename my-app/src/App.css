@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
 .App {
   text-align: center;
 }
@@ -37,26 +39,29 @@
   }
 }
 
-@media (min-width: 1024px){
+/*Navigation css*/
+@media (min-width: 1024px) {
   .direactBar {
     display: grid;
     grid-template-columns: 1fr 6fr;
     list-style-type: none;
   }
 
-  .navLink {
-    display: grid;
-    grid-template-columns: repeat(6,1fr);
-    list-style-type: none;
-  }
-
   .nav-link1 {
     display: grid;
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(6, 1fr);
     list-style-type: none;
+    text-align: center;
   }
-  
-  .hambergerIcon{
+
+  .nav-link1-Check {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    list-style-type: none;
+    text-align: center;
+  }
+
+  .hambergerIcon {
     display: none;
   }
 }
@@ -65,20 +70,28 @@
   .direactBar {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "icon hamIcon"
+      "link link";
     list-style-type: none;
   }
-
-  .navLink-Check{
+  .hambergerIcon {
+    grid-area: hamIcon;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+  .nav-link1 {
+    display: none;
+  }
+  .nav-link1-Check {
+    grid-area: link;
     display: grid;
-    grid-template-rows: repeat(6,1fr);
+    grid-template-rows: repeat(6, 1fr);
     list-style-type: none;
+    text-align: center;
   }
-  
-
 }
-
-
-
 
 .bar {
   width: 25px;
@@ -87,14 +100,69 @@
   margin: 5px 0px;
 }
 
-.Nav-hover-pointer-effect:hover{
-  cursor: hand; 
+.Nav-hover-pointer-effect:hover {
+  cursor: hand;
   cursor: pointer;
 }
 
 .Nav-hover-effect:hover {
   background-color: #f4ce14;
   transition: 0.5s;
-  cursor: hand; 
+  cursor: hand;
   cursor: pointer;
+}
+/* End of Navation css*/
+
+/* Main CSS*/
+.intro-background {
+  background-color: #495e57;
+  color: white;
+}
+
+.h1-header {
+  font-family: "Roboto";
+  font-size: 3.5 rems;
+}
+
+.h2-header {
+  font-family: "Roboto";
+  font-size: 2.5 rems;
+}
+
+.p-header {
+  font-size: 1.8 rems;
+}
+
+.action-button {
+  background-color: #f4ce14;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 15rem;
+  height: 3rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 0.2rem;
+  font-family: "Karla";
+}
+
+.article-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "info info info img";
+}
+.section-info {
+  grid-area: info;
+}
+
+.section-img {
+  grid-area: img;
+
+  padding-left: 2rem;
+}
+
+.section-img > img {
+  object-fit: cover;
+  max-width: 375px;
+  max-height: 325px;
+  height: auto;
+  width: auto;
 }

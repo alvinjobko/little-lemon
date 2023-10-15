@@ -1,10 +1,5 @@
 function Hearder() {
-    return (
-        <div>
-            
-        </div>
-    );
-
+  return <div></div>;
 }
 
 export default Hearder;
