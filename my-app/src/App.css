@@ -54,6 +54,10 @@
     text-align: center;
   }
 
+  .nav-link1 li {
+    padding-top: 0.5rem;
+  }
+
   .nav-link1-Check {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -113,7 +117,7 @@
 }
 /* End of Navation css*/
 
-/* Main CSS*/
+/* Header CSS*/
 .intro-background {
   background-color: #495e57;
   color: white;
@@ -165,4 +169,42 @@
   max-height: 325px;
   height: auto;
   width: auto;
+}
+
+/* End of header */
+
+/* Start of Main */
+.main-article h1 {
+  font-family: "Markazi Text", "Karla", serif;
+  font-size: 2.5rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.SpecialCard-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 2vw;
+}
+
+.menu-card {
+  background-color: #edefee;
+  border-radius: 1.5rem;
+  padding: 1rem;
+}
+
+.menu-card-img {
+  height: 25vh;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1.5rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.padding-top {
+  margin-top: 1rem;
 }
