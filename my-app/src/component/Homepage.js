@@ -1,6 +1,7 @@
 import Header from "./Header";
 import Main from "./Main";
-function HomePage() {
+
+function Homepage() {
   return (
     <>
       <Header></Header>
@@ -8,4 +9,4 @@ function HomePage() {
     </>
   );
 }
-export default HomePage;
+export default Homepage;

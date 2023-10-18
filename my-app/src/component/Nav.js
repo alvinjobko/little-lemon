@@ -1,7 +1,8 @@
 import logo from "../image/Logo.svg";
 import Container from "react-bootstrap/Container";
 import { useState } from "react";
-
+import { Link } from "react-router-dom";
+import Routing from "./Routing";
 function Nav() {
   const [menuOpen, setMenuOpen] = useState(false);
   const toggleMenu = () => {
@@ -25,10 +26,12 @@ function Nav() {
         </div>
         <ul className={"nav-link1" + (menuOpen ? "-Check" : "")}>
           <li className="Nav-hover-effect">
-            <a herf="#">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li className="Nav-hover-effect">
-            <a herf="#">About</a>
+            <Link className="link-noline" to="/about">
+              About
+            </Link>
           </li>
           <li className="Nav-hover-effect">
             <a herf="#">Menu</a>
