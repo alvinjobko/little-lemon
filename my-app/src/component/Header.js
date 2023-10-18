@@ -5,8 +5,8 @@ function Hearder() {
     <header className="intro-background">
       <article className="article-grid">
         <section className="section-info">
-          <h1 className="h1-header">Little Lemon</h1>
-          <h2 className="h2-header">Chicago</h2>
+          <h1>Little Lemon</h1>
+          <h2>Chicago</h2>
           <p className="p-header">
             We are a family owned Mediterranean restaurant, located on Maldove
             Street in Chicago, Illionis. We focus on traditional recipes served

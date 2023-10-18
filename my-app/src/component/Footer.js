@@ -54,7 +54,7 @@ function Footer (){
                 </li>
             </ul>
 
-            <ul>
+            <ul className="Contact-footer">
                 <li><h1>Connet</h1></li>
                 <li>
                     <a

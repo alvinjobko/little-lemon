@@ -74,6 +74,11 @@
   }
 }
 
+ul{
+  margin: 0;
+  padding-left: 1rem;
+}
+
 @media (max-width: 1024px) {
   .direactBar {
     display: grid;
@@ -133,17 +138,20 @@ li{
 
 h1 {
   font-family: "Markazi Text", "Karla", serif;
-  font-size: 3.5 rems;
+  font-size: 2rem;
+  margin: 0.8px;
 }
 
 h2 {
   font-family: "Markazi Text", "Karla", serif;
-  font-size: 2.5 rems;
+  font-size: 1.8rem;
+  margin: 0.8px;
 }
 
 p, a{
   font-family: "Markazi Text", "Karla", serif;
-  font-size: 1.8 rems;
+  font-size: 1.2rem;
+  margin: 0.8px;
 }
 
 
@@ -308,3 +316,7 @@ padding-left: 1rem;
   justify-content: space-around;
 }
 
+.Contact-footer li a{
+  color: white;
+  text-decoration: none;
+}
