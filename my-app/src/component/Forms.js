@@ -7,7 +7,7 @@ function Forms (){
     const [phone,setPhone] =useState("");
     const [numPeople,setNumPeople] = useState(1);
     const [bookDate,setBookDate] = useState();
-    const []
+    const [occasion,setOccasion] = useState("");
     const today = new Date();
     const currentDate = today.getFullYear() + "-" + today.getMonth()+1  + "-" + today. getDate();
     return (
@@ -48,8 +48,10 @@ function Forms (){
                     <input id="date" type="date"  required onChange={(e)=>{setBookDate(e.target.value)}} value={bookDate} min={currentDate}/>
                 </div>
                 <div>
-                    <labe htmlFor="Occasion">Occasion</labe>
-                    <Selection id="Occasion" onChange={(e)=>{set}}
+                    <labe htmlFor="occasion">Occasion</labe>
+                    <Selection id="occasion" onChange={(e)=>{setOccasion(e.target.value)}} value={occasion}>
+                        <option ></option>
+                    </Selection>
                 </div>
             </form>
         </div>
