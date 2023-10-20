@@ -25,20 +25,10 @@ function Nav() {
           <div className="bar"></div>
         </div>
         <ul className={"nav-link1" + (menuOpen ? "-Check" : "")}>
-          <li className="Nav-hover-effect">
-            <Link to="/">Home</Link>
-          </li>
-          <li className="Nav-hover-effect">
-            <Link className="link-noline" to="/about">
-              About
-            </Link>
-          </li>
-          <li className="Nav-hover-effect">
-            <a herf="#">Menu</a>
-          </li>
-          <li className="Nav-hover-effect">
-            <a herf="#">Reservations</a>
-          </li>
+            <Link className="link-noline Nav-hover-effect" to="/">Home</Link>
+            <Link className="link-noline Nav-hover-effect" to="/about">About</Link>
+            <Link className="link-noline Nav-hover-effect" to="/menu">Menu</Link>
+            <Link className="link-noline Nav-hover-effect" to="/reservation">Reservation</Link>
           <li className="Nav-hover-effect">
             <a herf="#">Order Online</a>
           </li>
