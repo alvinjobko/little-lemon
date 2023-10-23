@@ -3,7 +3,7 @@ import Homepage from "./Homepage";
 import About from "./About";
 import Menu from "./Menu";
 import Forms from "./Forms";
-
+import Confirmation from "./Confirmation";
 function Routing() {
   return (
     <Routes>
@@ -11,6 +11,7 @@ function Routing() {
       <Route path="/about" element={<About />} />
       <Route path="/menu" element={<Menu />} />
       <Route path="/reservation" element={<Forms />} />
+      <Route path="/confirmation" element={<Confirmation />} />
     </Routes>
   );
 }

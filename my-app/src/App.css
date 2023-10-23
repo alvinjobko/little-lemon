@@ -165,6 +165,8 @@ a {
   border-radius: 0.2rem;
   font-family: "Karla";
   border-radius: 0.5rem;
+  color: black;
+  text-decoration: none;
 }
 
 .action-button:hover {
@@ -173,6 +175,7 @@ a {
   transition: 0.5s;
   cursor: hand;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .article-grid {
@@ -335,9 +338,8 @@ Link {
   height: 100%;
 }
 
-
-.img-munu{
-  width:100vw;
+.img-munu {
+  width: 100vw;
   height: auto;
   text-align: center;
 }

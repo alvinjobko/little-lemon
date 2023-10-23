@@ -5,12 +5,15 @@ import Main from "./component/Main";
 import Footer from "./component/Footer";
 import Routing from "./component/Routing";
 import Homepage from "./component/Homepage";
+import { AlertProvider } from "./component/alertContext";
 function App() {
   return (
     <>
-      <Nav></Nav>
-      <Routing></Routing>
-      <Footer></Footer>
+      <AlertProvider>
+        <Nav></Nav>
+        <Routing></Routing>
+        <Footer></Footer>
+      </AlertProvider>
     </>
   );
 }
