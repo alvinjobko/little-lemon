@@ -37,12 +37,12 @@ function Nav() {
           <Link className="link-noline Nav-hover-effect" to="/reservation">
             Reservation
           </Link>
-          <li className="Nav-hover-effect">
-            <a herf="#">Order Online</a>
-          </li>
-          <li className="Nav-hover-effect">
-            <a herf="#">Login</a>
-          </li>
+          <Link className="link-noline Nav-hover-effect" to="/order">
+            Order Online
+          </Link>
+          <Link className="link-noline Nav-hover-effect" to="/login">
+            Login
+          </Link>
         </ul>
       </ul>
     </nav>

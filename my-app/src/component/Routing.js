@@ -4,6 +4,8 @@ import About from "./About";
 import Menu from "./Menu";
 import Forms from "./Forms";
 import Confirmation from "./Confirmation";
+import Ordernow from "./Ordernow";
+import Login from "./Login";
 function Routing() {
   return (
     <Routes>
@@ -12,6 +14,8 @@ function Routing() {
       <Route path="/menu" element={<Menu />} />
       <Route path="/reservation" element={<Forms />} />
       <Route path="/confirmation" element={<Confirmation />} />
+      <Route path="/order" element={<Ordernow />} />
+      <Route path="/login" element={<Login />} />
     </Routes>
   );
 }

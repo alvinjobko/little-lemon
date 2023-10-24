@@ -235,7 +235,10 @@ a {
 }
 
 .center {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .padding-top {
@@ -342,4 +345,34 @@ Link {
   width: 100vw;
   height: auto;
   text-align: center;
+}
+
+.backgroundimg {
+  background: center 35% url("./image/Mario\ and\ Adrian\ b.jpg");
+  background-position: 25% 75%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+}
+
+.backgroundGreen {
+  background: #495e57;
+  height: 30vh;
+  width: 40vw;
+  border-radius: 3rem;
+  color: #edefee;
+}
+
+.paddingPage {
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
+.link-noline-white {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
 }

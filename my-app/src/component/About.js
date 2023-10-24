@@ -1,7 +1,9 @@
 function About() {
   return (
     <>
-      <button className="center action-button"> About US</button>
+      <div className="backgroundimg center">
+        <button className="action-button"> About US</button>
+      </div>
     </>
   );
 }
